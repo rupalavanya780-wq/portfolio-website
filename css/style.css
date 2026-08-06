@@ -182,6 +182,131 @@ button:hover {
 }
 
 
+/* ==========================
+   Internship Experience
+========================== */
+
+#experience {
+    padding: 80px 10%;
+    background: #f8f9fc;
+    text-align: center;
+}
+
+#experience h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#experience h2::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #4f46e5;
+    display: block;
+    margin: 12px auto 0;
+    border-radius: 5px;
+}
+
+.experience-card {
+    background: #ffffff;
+    max-width: 850px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+.experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+}
+
+.experience-card h3 {
+    color: #4f46e5;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.experience-card h4 {
+    color: #444;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.experience-card ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.experience-card ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Certificate Buttons */
+
+.experience-card .btn {
+    display: inline-block;
+    margin: 10px 12px 0 0;
+    padding: 12px 24px;
+    background: #4f46e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.experience-card .btn:hover {
+    background: #3730a3;
+    transform: translateY(-3px);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    #experience {
+        padding: 60px 20px;
+    }
+
+    .experience-card {
+        padding: 25px;
+    }
+
+    #experience h2 {
+        font-size: 2rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .experience-card h4 {
+        font-size: 1.1rem;
+    }
+
+    .experience-card .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 12px 0;
+    }
+}
+
+
 /* Resume */
 
 #resume {
